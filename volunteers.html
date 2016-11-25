@@ -1,0 +1,111 @@
+---
+layout: default
+
+navigation: true
+title: Volunteers
+---
+
+
+<div class="volunteers-info">
+  <figure class="volunteers-info__image">
+    <img src="{{ site.baseurl }}img/volunteers.jpg" alt="">
+  </figure>
+
+  <h3 class="volunteers-info__title">Career Speakers</h3>
+
+  <p class="volunteers-info__copy">
+    Students will attend three career occupation panels. Each panel has three speakers specific to a career track. For example, if a student chooses protective services, a police officer, fireman, and sheriff will speak during the session. Each speaker has 5-8 minutes to present on their career. Speakers will provide students with a snapshot of a typical day in the life of that profession - what type of education is required for the field, words of advice, etc. A five minute Q and A will be available for students at the end of the session. Career speakers will not have computer access for PowerPoint presentations. Career speakers will present during one of the morning sessions, 10:15 a.m. - 12:00 p.m., or one of the afternoon sessions, 12:50 p.m. - 2:00 p.m. Career speakers will need to arrive 30 minutes prior to your presentation and check-in at the registration table in the LaSells Stewart Center. Career Occupation Panels will be located in the LaSells Stewart Center, as well as the CH2M Hill Alumni Center.
+  </p>
+
+  <h3 class="volunteers-info__title">Mock Interviews</h3>
+  <p class="volunteers-info__copy">
+    Prior to the Career Convention, students will be building their resumes, as well as developing their interviewing skills. At the event, mock interviewers will be given students to interview. Each interview will be 15 minutes. We encourage mock interviewers to interview students throughout the entire event: 10:15 a.m. - 2:00 p.m. We understand other time commitments may preclude participation during the entire time. In the event of schedule conflicts, we can schedule mock interviewers for the morning session, 10:15 a.m. - 12:00 p.m., or the afternoon session, 12:50 p.m. - 2:00 p.m. Mock interviewers will need to arrive 15 minutes prior to your shift and check-in at the registration table in the CH2M Hill Alumni Center. Mock Interviews will take place in the CH2M Hill Alumni Center Ballroom.
+  </p>
+
+  <h3 class="volunteers-info__title">Event Volunteers</h3>
+  <p class="volunteers-info__copy">
+    It takes many volunteers to organize an event for 800 high school students. Please help make this event successful by volunteering. Please arrive 15 minutes prior to your shift and check-in at the registration table in the LaSells Stewart Center.
+  </p>
+
+  <p class="volunteers-info__side-note">
+    * Food and beverages will be provided for all volunteers, as well as lunch for those who are on site during the lunch break.
+  </p>
+
+  <div class="volunteers-info__superintendent-note">
+    <h3 class="volunteers-info__title">Message from the Superintendent</h3>
+    <img class="volunteers-info__superintendent-image" src="{{ site.baseurl }}img/superintendent.png" alt="">
+    <p class="volunteers-info__copy">I'd like to invite our community to continue supporting our annual Benton County Career Convention!</p>
+  </div>
+</div>
+
+<table class="volunteers-table">
+  <tr class="volunteers-table_header">
+    <th>Role</th>
+    <th>Details</th>
+    <th>Time Slots</th>
+  </tr>
+  <tr class="volunteers-table_role">
+    <td>Event Set-up</td>
+    <td>Event and business booth set-up.</td>
+    <td>?</td>
+  </tr>
+  <tr class="volunteers-table_role">
+    <td>Building Hosts</td>
+    <td>Assist students and volunteers with room locations. Make sure students do not leave the venue.</td>
+    <td>?</td>
+  </tr>
+  <tr class="volunteers-table_role">
+    <td>Registration Tables</td>
+    <td>A registration table will be located at the entrance of each building. Volunteers will help with the check-in process, as well as assisting students and volunteers with room locations.</td>
+    <td>?</td>
+  </tr>
+  <tr class="volunteers-table_role">Room Hosts</td>
+    <td>A registration table will be located at the entrance of each building. Volunteers will help with the check-in process, as well as assisting students and volunteers with room locations.</td>
+    <td>?</td>
+  </tr>
+  <tr class="volunteers-table_role">
+    <td>Room Hosts</td>
+    <td>Set-up rooms, welcome guest speakers, assist students, keep an eye on the clock, make sure the thank you cards get to the speakers before they leave, and spot-clean the room after each session. Each speaker will have 5-8 minutes to present on their career. A five minute Q and A will be available for students at the end of each session.</td>
+    <td>?</td>
+  </tr>
+  <tr class="volunteers-table_role">
+    <td>Hospitality Room Hosts</td>
+    <td>There are two hospitality rooms, one in each building. Volunteers will greet, assist, and man the room.</td>
+    <td>?</td>
+  </tr>
+  <tr class="volunteers-table_role">
+    <td>Event Clean-up</td>
+    <td>Spot-cleans all rooms and assist business booths with teardown, as well as help organize paperwork for the school district.</td>
+    <td>?</td>
+  </tr>
+</table>
+
+<div class="links-area">
+  <h2 class="links-area__title">Registration</h2>
+  <ul class="links-area__list">
+
+    {% for registration-link in site.cc-registration-links %}
+      {% if registration-link.type == "volunteers" %}
+        <li class="links-area__link">
+          <a href="{{ registration-link.url }}">{{ registration-link.name }}</a>
+          <span>{{ registration-link.subtitle }}</span>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+  </ul>
+
+  <h2 class="links-area__title">Resources</h2>
+  <ul class="links-area__list">
+
+    {% for resource in site.cc-resources %}
+      {% if resource.type == "volunteers" %}
+      <li class="links-area__link">
+        <a href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
+        <span>{{ resource.subtitle }}</span>
+      </li>
+      {% endif %}
+    {% endfor %}
+
+  </ul>
+</div>

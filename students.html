@@ -19,7 +19,7 @@ title: Students
 
 <div class="links-area">
   <h2 class="links-area__title">Registration</h2>
-  <ul class="links-area__list">
+  <ul class="links-area__list links-area__list--plain">
 
     {% for registration-link in site.cc-registration-links %}
       {% if registration-link.type == "student" %}
@@ -33,7 +33,7 @@ title: Students
   </ul>
 
   <h2 class="links-area__title">Resources</h2>
-  <ul class="links-area__list">
+  <ul class="links-area__list links-area__list--plain">
 
     {% for resource in site.cc-resources %}
       {% if resource.type == "student" %}

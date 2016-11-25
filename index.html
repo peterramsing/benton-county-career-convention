@@ -6,9 +6,7 @@ title: Home
 ---
 
 <div class="homepage-hero">
-  <figure class="homepage-hero__image">
-    <img src="{{ site.baseurl }}img/hero.jpg" alt="">
-  </figure>
+  <img class="homepage-hero__image"src="{{ site.baseurl }}img/hero.jpg" alt="">
   <h1>{{ site.cc-year }} Career Convention</h1>
   <p>
     The Benton County High School Career Convention is a partnership between the Corvallis School District 509J, Oregon State University's College of Business (COB), Austin Entrepreneurship Program (AEP), Enactus, Benton County High Schools, Corvallis Public Schools Foundation, and Corvallis Chamber of Commerce.
@@ -53,7 +51,7 @@ title: Home
 
 <div class="links-area">
   <h2 class="links-area__title">Registration</h2>
-  <ul class="links-area__list">
+  <ul class="links-area__list links-area__list--plain">
 
     {% for registration-link in site.cc-registration-links %}
       <li class="links-area__link">
@@ -65,7 +63,7 @@ title: Home
   </ul>
 
   <h2 class="links-area__title">Resources</h2>
-  <ul class="links-area__list">
+  <ul class="links-area__list links-area__list--plain">
 
     {% for resource in site.cc-resources %}
       {% if resource.homepage %}

@@ -1,0 +1,65 @@
+html {
+  background-color: $color4;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+[class*="__list--plain"] {
+
+  padding-left: 0;
+  list-style: none;
+  -webkit-padding-start: 0;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+}
+
+h1 {
+  line-height: 48px;
+  font-size: 30px;
+}
+
+h2 {
+  line-height: 36px;
+  font-size: 25px;
+}
+
+h3 {
+  line-height: 24px;
+  font-size: 21px;
+}
+
+h4 {
+  line-height: 30px;
+  font-size: 17px;
+}
+
+
+strong {
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 24px;
+  font-size: 15px;
+}
+
+label,
+button,
+small {
+  line-height: 22px;
+  font-size: 13px;
+}

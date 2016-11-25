@@ -49,6 +49,8 @@ cc-resources:
     file-name: ""
   - name: "Message from the Superintendent"
     file-name: ""
+    homepage: true
+    subtitle: Letter from the Superintendent
   - name: "Skill Based Resume Example"
     file-name: ""
   - name: "Chronological Resume Example"
@@ -57,10 +59,38 @@ cc-resources:
     file-name: ""
   - name: "Directions"
     file-name: ""
+    homepage: true
+    subtitle: Directions and Interactive Map
   - name: "Conference Center Map"
     file-name: ""
+    homepage: true
+    subtitle: Map of CH2M Hill and Alumni Center
   - name: "Speaker Evaluation"
     file-name: ""
+
+cc-registration-links:
+  - name: "Student Registration"
+    subtitle: "Register for the Career Convetion"
+    type: "student"
+    ur: ""
+  - name: "Sponsor Registration"
+    subtitle: "Register to sponsor the Career Convetion"
+    type: "sponsor"
+    ur: ""
+  - name: "Career Speaker Registration"
+    subtitle: "Register to be a career speaker"
+    type: "career"
+    ur: ""
+  - name: "Mock Intervier Registration"
+    subtitle: "Register to be a Mock Interviewer"
+    type: "mock"
+    ur: ""
+  - name: "Event Volunteer Registration"
+    subtitle: "Registration for General Assistance"
+    type: "volunteer"
+    ur: ""
+
+
 
 cc-web-creator-name: "Peter Ramsing"
 cc-web-creator-url: http://peter.coffee

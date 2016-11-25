@@ -1,3 +1,46 @@
-<footer class="SiteFooter">
+<footer class="site-footer">
+
+  <div class="site-footer__contact-info">
+    <h2 class="site-footer__list-title">Contact Info</h2>
+
+    <ul class="site-footer__list--plain">
+      <li class="site-footer__list-item">{{ site.cc-contact-name }}</li>
+      <li class="site-footer__list-item">{{ site.cc-contact-role }}</li>
+      {% if site.cc-contact-phone %}
+        <li class="site-footer__list-item">{{ site.cc-contact-phone }}</li>
+      {% endif %}
+      {% if site.cc-contact-email %}
+        <li class="site-footer__list-item"><a href="mailto:{{ site.cc-contact-email }}">{{ site.cc-contact-email }}</a></li>
+      {% endif %}
+    </ul>
+  </div>
+
+  <div class="site-footer__contact-info">
+    <h2 class="site-footer__list-title">Site Links</h2>
+
+    <ul class="site-footer__list--plain">
+      {% for page in site.pages %}
+        {% if page.title %}
+          {% if page.navigation %}
+          <li class="site-footer__list-item"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="site-footer__contact-info">
+    <h2 class="site-footer__list-title">Site Links</h2>
+
+    <ul class="site-footer__list--plain">
+      {% for resource in site.cc-resources %}
+        <li class="site-footer__list-item"><a href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="site-content-info">
+    created with lots of coffee by <a href="{{ site.cc-web-creator-url }}">{{ site.cc-web-creator-name }}</a>
+  </div>
 
 </footer>

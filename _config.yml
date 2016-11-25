@@ -6,3 +6,61 @@ url: "REPLACE_ME" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+
+# Special Stuff for the Career Convention
+cc-year: 2017
+cc-month: "Feburary"
+cc-date: "23"
+cc-day: "Tuesday"
+cc-start-time: "9:30 AM"
+cc-end-time: "2:15 PM"
+cc-location: "Oregon State University CH2M Hill Alumni Center and LaSells Stewart Center"
+
+cc-sponsors-premier:
+  -
+
+cc-sponsors-grand:
+  -
+
+cc-sponsors-honor:
+  -
+
+cc-student-registration-date: 2016-12-01 09:00:00
+
+cc-contact-name: "Donna Keim"
+cc-contact-role: "Chair"
+cc-contact-phone: "541-740-1309"
+cc-contact-email: "Donna.Keim@corvallis.k12.or.us"
+
+cc-resources-base-url: "downloads/"
+cc-resources:
+  - name: "Volunteer Event Information"
+    file-name: ""
+  - name: "Student Event Information"
+    file-name: ""
+  - name: "Flyer"
+    file-name: ""
+  - name: "Interviewing Tips"
+    file-name: ""
+  - name: "Mock Interview Event Handout"
+    file-name: ""
+  - name: "Convention Room Schedule"
+    file-name: ""
+  - name: "Message from the Superintendent"
+    file-name: ""
+  - name: "Skill Based Resume Example"
+    file-name: ""
+  - name: "Chronological Resume Example"
+    file-name: ""
+  - name: "CIS Resume Example"
+    file-name: ""
+  - name: "Directions"
+    file-name: ""
+  - name: "Conference Center Map"
+    file-name: ""
+  - name: "Speaker Evaluation"
+    file-name: ""
+
+cc-web-creator-name: "Peter Ramsing"
+cc-web-creator-url: http://peter.coffee

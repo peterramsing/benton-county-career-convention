@@ -1,3 +1,21 @@
-<header class="SiteHeader">
+<header class="site-header">
+  <nav>
+    {% for page in site.pages %}
+      {% if page.title %}
+        {% if page.navigation %}
+          <a class="site-header__nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </nav>
 
+  <h1 class="site-header__title">Benton County Career Convention</h1>
+
+  <p class="site-header__partners">
+    Corvallis School District 509J, OSU's College of Business (COB), Austin Entrepreneurship Program (AEP), Enactus, Benton County High Schools, Corvallis Public Schools Foundation, and the Corvallis Chamber of Commerce
+  </p>
+
+  <p class="site-header__event-details">
+    {{ site.cc-day }}, {{ site.cc-month }} {{ site.cc-date }}, {{ site.cc-year }} | {{ site.cc-start-time }} - {{ site.cc-end-time }} @ {{ site.cc-location }}
+  </p>
 </header>

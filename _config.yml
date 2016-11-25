@@ -83,7 +83,7 @@ cc-registration-links:
     ur: ""
   - name: "Sponsor Registration"
     subtitle: "Register to sponsor the Career Convetion"
-    type: "sponsor"
+    type: "sponsors"
     ur: ""
   - name: "Career Speaker Registration"
     subtitle: "Register to be a career speaker"

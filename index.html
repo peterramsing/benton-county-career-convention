@@ -51,12 +51,12 @@ title: Home
 </div>
 
 
-<div class="homepage-links-area">
-  <h2 class="homepage-links-area__title">Registration</h2>
-  <ul class="homepage-links-area__list">
+<div class="links-area">
+  <h2 class="links-area__title">Registration</h2>
+  <ul class="links-area__list">
 
     {% for registration-link in site.cc-registration-links %}
-      <li class="homepage-links-area__link">
+      <li class="links-area__link">
         <a href="{{ registration-link.url }}">{{ registration-link.name }}</a>
         <span>{{ registration-link.subtitle }}</span>
       </li>
@@ -64,12 +64,12 @@ title: Home
 
   </ul>
 
-  <h2 class="homepage-links-area__title">Resources</h2>
-  <ul class="homepage-links-area__list">
+  <h2 class="links-area__title">Resources</h2>
+  <ul class="links-area__list">
 
     {% for resource in site.cc-resources %}
       {% if resource.homepage %}
-      <li class="homepage-links-area__link">
+      <li class="links-area__link">
         <a href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
         <span>{{ resource.subtitle }}</span>
       </li>
@@ -79,6 +79,4 @@ title: Home
   </ul>
 </div>
 
-<div class="homepage-sponsors-area">
-
-</div>
+{% include sponsors.html %}

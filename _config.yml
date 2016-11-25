@@ -37,12 +37,15 @@ cc-resources-base-url: "downloads/"
 cc-resources:
   - name: "Volunteer Event Information"
     file-name: ""
+    type: "volunteer"
   - name: "Student Event Information"
     file-name: ""
+    type: "student"
   - name: "Flyer"
     file-name: ""
   - name: "Interviewing Tips"
     file-name: ""
+    type: "student"
   - name: "Mock Interview Event Handout"
     file-name: ""
   - name: "Convention Room Schedule"
@@ -53,10 +56,13 @@ cc-resources:
     subtitle: Letter from the Superintendent
   - name: "Skill Based Resume Example"
     file-name: ""
+    type: "student"
   - name: "Chronological Resume Example"
     file-name: ""
+    type: "student"
   - name: "CIS Resume Example"
     file-name: ""
+    type: "student"
   - name: "Directions"
     file-name: ""
     homepage: true
@@ -65,8 +71,9 @@ cc-resources:
     file-name: ""
     homepage: true
     subtitle: Map of CH2M Hill and Alumni Center
-  - name: "Speaker Evaluation"
+  - name: "Career Speaker Evaluation"
     file-name: ""
+    type: "student"
 
 cc-registration-links:
   - name: "Student Registration"

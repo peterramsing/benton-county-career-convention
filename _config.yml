@@ -1,6 +1,6 @@
 # Site settings
 title: Benton County Career Convention
-description: REPLACE_ME
+description: The Benton County High School Career Convention is a partnership between the Corvallis School District 509J, Oregon State University's College of Business (COB), Austin Entrepreneurship Program (AEP), Enactus, Benton County High Schools, Corvallis Public Schools Foundation, and Corvallis Chamber of Commerce.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "REPLACE_ME" # the base hostname & protocol for your site
 

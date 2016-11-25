@@ -75,28 +75,73 @@ cc-resources:
   - name: "Career Speaker Evaluation"
     file-name: ""
     type: "student"
+  - name: "Event Information"
+    file-type: ""
+    type: "sponsor"
 
 cc-registration-links:
   - name: "Student Registration"
     subtitle: "Register for the Career Convetion"
     type: "student"
-    ur: ""
+    url: ""
   - name: "Sponsor Registration"
     subtitle: "Register to sponsor the Career Convetion"
-    type: "sponsors"
-    ur: ""
+    type: "sponsor"
+    url: ""
   - name: "Career Speaker Registration"
     subtitle: "Register to be a career speaker"
     type: "volunteers"
-    ur: ""
+    url: ""
   - name: "Mock Intervier Registration"
     subtitle: "Register to be a Mock Interviewer"
     type: "volunteers"
-    ur: ""
+    url: ""
   - name: "Event Volunteer Registration"
     subtitle: "Registration for General Assistance"
     type: "volunteers"
-    ur: ""
+    url: ""
+
+cc-sponsors-levels:
+  - name: "Business Booth"
+    cost: "$75"
+    helps: 7.5
+    note: "Business Booth Representatives: Please check-in at the registration table in the LaSells Stewart Center and have your booths set-up no later than 9:30 a.m. Volunteers will be on hand to help booth representatives unload vehicles and set-up booths. Business booths will be located in the LaSells Stewart Center, as well as the CH2M Hill Alumni Center. If needed, power cords will be available."
+    perks:
+      - "Interaction with hundreds of students"
+      - "1 Booth"
+      - "Tax Deduction"
+  - name: "Honor"
+    cost: "$250"
+    helps: 25
+    perks:
+      - "Name on Website"
+      - "Interaction with hundreds of students"
+      - "1 Booth"
+      - "Logo displayed during convention"
+      - "Tax Deduction"
+  - name: "Grand"
+    cost: "$500"
+    helps: 50
+    perks:
+      - "Name on Website"
+      - "Interaction with hundreds of students"
+      - "2 Booths: one per venue or one double booth"
+      - "Logo displayed during convention"
+      - "Bag Inserts Option"
+      - "Tax Deduction"
+  - name: "Business Booth"
+    cost: "$75"
+    helps: 7.5
+    perks:
+      - "Name on Website"
+      - "Interaction with hundreds of students"
+      - "3 Booths: one single and one double at both venues or one triple"
+      - "Logo displayed during convention"
+      - "Bag Inserts Option"
+      - "Corvallis Flyer Ad"
+      - "Tax Deduction"
+
+
 
 
 

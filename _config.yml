@@ -18,13 +18,11 @@ cc-end-time: "2:15 PM"
 cc-location: "Oregon State University CH2M Hill Alumni Center and LaSells Stewart Center"
 
 cc-sponsors-premier:
-  -
+  - "Corvallis Public Schools Foundation"
 
 cc-sponsors-grand:
-  -
-
-cc-sponsors-honor:
-  -
+  - "Ball Studio"
+  - "Corvallis Rotary"
 
 cc-student-registration-date: 2016-12-01 09:00:00
 
@@ -37,7 +35,7 @@ cc-resources-base-url: "downloads/"
 cc-resources:
   - name: "Volunteer Event Information"
     file-name: ""
-    type: "volunteers"
+    type: "volunteer"
   - name: "Student Event Information"
     file-name: ""
     type: "student"
@@ -48,7 +46,7 @@ cc-resources:
     type: "student"
   - name: "Mock Interview Event Handout"
     file-name: ""
-    type: "volunteers"
+    type: "volunteer"
   - name: "Convention Room Schedule"
     file-name: ""
   - name: "Message from the Superintendent"
@@ -90,26 +88,24 @@ cc-registration-links:
     url: ""
   - name: "Career Speaker Registration"
     subtitle: "Register to be a career speaker"
-    type: "volunteers"
+    type: "volunteer"
     url: ""
   - name: "Mock Intervier Registration"
     subtitle: "Register to be a Mock Interviewer"
-    type: "volunteers"
+    type: "volunteer"
     url: ""
   - name: "Event Volunteer Registration"
     subtitle: "Registration for General Assistance"
-    type: "volunteers"
+    type: "volunteer"
     url: ""
 
 cc-sponsors-levels:
   - name: "Business Booth"
-    cost: "$75"
-    helps: 7.5
+    cost: "Free this year!"
     note: "Business Booth Representatives: Please check-in at the registration table in the LaSells Stewart Center and have your booths set-up no later than 9:30 a.m. Volunteers will be on hand to help booth representatives unload vehicles and set-up booths. Business booths will be located in the LaSells Stewart Center, as well as the CH2M Hill Alumni Center. If needed, power cords will be available."
     perks:
       - "Interaction with hundreds of students"
       - "1 Booth"
-      - "Tax Deduction"
   - name: "Honor"
     cost: "$250"
     helps: 25
@@ -129,9 +125,9 @@ cc-sponsors-levels:
       - "Logo displayed during convention"
       - "Bag Inserts Option"
       - "Tax Deduction"
-  - name: "Business Booth"
-    cost: "$75"
-    helps: 7.5
+  - name: "Premier"
+    cost: "$1,500"
+    helps: 150
     perks:
       - "Name on Website"
       - "Interaction with hundreds of students"

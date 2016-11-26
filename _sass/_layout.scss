@@ -13,3 +13,19 @@
     width: $large - 20px;
   }
 }
+
+.homepage-info-grid {
+  &::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+}
+
+.homepage-info-grid__block {
+  @media (min-width: $medium) {
+    float: left;
+    padding: 25px;
+    width: 40%;
+  }
+}

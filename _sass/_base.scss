@@ -105,18 +105,6 @@ a:focus {
   }
 }
 
-.site-footer__lists {
-  @include clearfix;
-  width: 100%;
-}
-
-.site-footer__list-section {
-  @media (min-width: $large) {
-    float: left;
-    width: calc(100% / 3 - 30px);
-  }
-}
-
 .site-footer__list-title {
   border-bottom: 1px solid $color5;
 }

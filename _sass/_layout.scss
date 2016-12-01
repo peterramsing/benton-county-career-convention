@@ -1,6 +1,7 @@
 
 
 [data-wrap='container'] {
+  @include clearfix;
   margin: 0 auto;
   padding: 30px 20px;
   width: $small - 20px;

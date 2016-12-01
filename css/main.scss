@@ -38,6 +38,15 @@ $wide:            1200px;
 
 $footer-height: 50px;
 
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "normalize-5.0.0",

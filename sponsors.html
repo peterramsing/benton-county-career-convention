@@ -5,33 +5,34 @@ navigation: true
 title: Sponsors
 ---
 
-<div class="sponsor-info">
-  <h3 class="sponsor-info__header">Thanks for helping empower the next generation!</h3>
-  <p class="sponsor-info__copy">
+<div class="sponsors-info">
+  <h3 class="sponsors-info__header">Thanks for helping empower the next generation!</h3>
+  <p class="sponsors-info__copy">
     Booths are needed as well as our Premier and Grand Sponsors. The booths  help the students learn about the businesses in our community and what skills and knowledge are required as an employee. Students also work on social conversation skills.
   </p>
-  <p class="sponsor-info__copy">
+  <p class="sponsors-info__copy">
     The success of this event is due to local volunteers and sponsors. Besides career speakers, mock interviewers, and volunteer commitment, financial assistance is needed. Please view the sponsorship levels below.
   </p>
+  <div class="sponsorship-levels">
+    <h2>Sponsorship Levels</h2>
+    {% for level in site.cc-sponsors-levels %}
+      <div class="sponsorship-levels__level">
+        <h2>{{ level.name }}{% if level.note %}*{% endif %} - {{level.cost}}</h2>
+        {% if level.helps %}
+          <h3>Helps {{level.helps}} Students!</h3>
+        {% endif %}
+        <ul>
+          {% for perk in level.perks %}
+            <li>{{ perk }}</li>
+          {% endfor %}
+        </ul>
+        <p>{% if level.note %}*{{ level.note }}{% endif %}</p>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
-<div class="sponsorship-levels">
-  <h2>Sponsorship Levels</h2>
-  {% for level in site.cc-sponsors-levels %}
-    <div class="sponsorship-levels__level">
-      <h2>{{ level.name }}{% if level.note %}*{% endif %} - {{level.cost}}</h2>
-      {% if level.helps %}
-        <h3>Helps {{level.helps}} Students!</h3>
-      {% endif %}
-      <ul>
-        {% for perk in level.perks %}
-          <li>{{ perk }}</li>
-        {% endfor %}
-      </ul>
-      <p>{% if level.note %}*{{ level.note }}{% endif %}</p>
-    </div>
-  {% endfor %}
-</div>
+
 
 <div class="links-area">
   <h2 class="links-area__title">Registration</h2>

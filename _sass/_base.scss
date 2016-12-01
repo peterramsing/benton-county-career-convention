@@ -75,6 +75,26 @@ a:focus {
   color: inherit;
 }
 
+// Header
+.site-header {
+  margin: 0;
+  background-color: $color2;
+  color: $color4;
+}
+
+.site-header__navigation {
+  @include clearfix;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.site-header__nav-link {
+  line-height: 2rem;
+
+  @media (min-width: $medium) {
+    padding: 0 20px;
+  }
+}
 
 // Footer
 .site-footer {

@@ -1,5 +1,5 @@
 <header class="site-header">
-  <nav data-wrap="container">
+  <nav class="site-header__navigation" data-wrap="container">
     {% for page in site.pages %}
       {% if page.title %}
         {% if page.navigation %}
@@ -20,5 +20,4 @@
       {{ site.cc-day }}, {{ site.cc-month }} {{ site.cc-date }}, {{ site.cc-year }} | {{ site.cc-start-time }} - {{ site.cc-end-time }} @ {{ site.cc-location }}
     </p>
   </div>
-
 </header>

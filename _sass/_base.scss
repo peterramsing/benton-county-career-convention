@@ -63,3 +63,49 @@ small {
   line-height: 22px;
   font-size: 13px;
 }
+
+a,
+a:hover,
+a:active,
+a:focus {
+  color: inherit;
+}
+
+
+// Footer
+.site-footer {
+  background-color: $color2;
+  padding: 25px 0;
+  text-align: center;
+  color: $color4;
+
+  @media (min-width: $medium) {
+    text-align: left;
+  }
+}
+
+.site-footer__lists {
+  @include clearfix;
+  width: 100%;
+}
+
+.site-footer__list-section {
+  @media (min-width: $large) {
+    float: left;
+    width: calc(100% / 3 - 30px);
+  }
+}
+
+.site-footer__list-title {
+  border-bottom: 1px solid $color5;
+}
+
+.site-footer__list {
+  line-height: 1.4rem;
+}
+
+.site-content-info {
+  padding: 25px 0;
+  width: 100%;
+  text-align: center;
+}

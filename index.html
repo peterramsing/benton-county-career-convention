@@ -2,7 +2,7 @@
 layout: default
 
 navigation: true
-title: Home
+title: Home target="_blank"
 ---
 
 <div class="student-registration-callout">
@@ -67,7 +67,7 @@ title: Home
 
     {% for registration-link in site.cc-registration-links %}
       <li class="links-area__link">
-        <a href="{{ registration-link.url }}">{{ registration-link.name }}</a>
+        <a target="_blank" href="{{ registration-link.url }}">{{ registration-link.name }}</a>
         <span>{{ registration-link.subtitle }}</span>
       </li>
     {% endfor %}
@@ -80,7 +80,7 @@ title: Home
     {% for resource in site.cc-resources %}
       {% if resource.homepage %}
       <li class="links-area__link">
-        <a href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
+        <a target="_blank" href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
         <span>{{ resource.subtitle }}</span>
       </li>
       {% endif %}

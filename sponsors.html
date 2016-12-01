@@ -41,7 +41,7 @@ title: Sponsors
     {% for registration-link in site.cc-registration-links %}
       {% if registration-link.type == "sponsor" %}
         <li class="links-area__link">
-          <a href="{{ registration-link.url }}">{{ registration-link.name }}</a>
+          <a target="_blank" href="{{ registration-link.url }}">{{ registration-link.name }}</a>
           <span>{{ registration-link.subtitle }}</span>
         </li>
       {% endif %}
@@ -55,7 +55,7 @@ title: Sponsors
     {% for resource in site.cc-resources %}
       {% if resource.type == "sponsor" %}
       <li class="links-area__link">
-        <a href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
+        <a target="_blank" href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
         <span>{{ resource.subtitle }}</span>
       </li>
       {% endif %}

@@ -24,7 +24,9 @@
           {% for page in site.pages %}
             {% if page.title %}
               {% if page.navigation %}
-              <li class="site-footer__list-item"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+              <li class="site-footer__list-item">
+                <a target="_blank" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              </li>
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -36,7 +38,9 @@
 
         <ul class="site-footer__list site-footer__list--plain">
           {% for resource in site.cc-resources %}
-            <li class="site-footer__list-item"><a href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a></li>
+            <li class="site-footer__list-item">
+              <a target="_blank" href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
+            </li>
           {% endfor %}
         </ul>
       </div>

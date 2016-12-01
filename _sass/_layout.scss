@@ -15,7 +15,7 @@
   }
 }
 
-
+// Footer
 .site-footer__lists {
   @include clearfix;
   width: 100%;
@@ -28,13 +28,63 @@
   }
 }
 
+// Site content
 
+.student-registration-callout {
+  margin: 10px auto 40px;
+  text-align: center;
+}
 
-.homepage-info-grid {
-  &::after {
-    display: block;
-    clear: both;
-    content: '';
+.student-registration-callout__link {
+  transition: all 200ms ease-in-out;
+  border: 1px solid $color2;
+  border-radius: 5px;
+  padding: 10px 40px;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $color2;
+    color: $color4;
+  }
+}
+
+.homepage-hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: $color2;
+  color: $color4;
+}
+
+.homepage-hero__image {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 300px;
+}
+
+.homepage-hero__content {
+  padding: 0 20px;
+}
+
+.homepage-info-grid,
+.sponsors-info,
+.students-info,
+.volunteers-info {
+  @include clearfix;
+
+  @media (min-width: $medium) {
+    float: left;
+    padding-right: 20px;
+    width: 80%;
+  }
+}
+
+.links-area {
+  @media (min-width: $medium) {
+    float: left;
+    width: 20%;
   }
 }
 
@@ -42,6 +92,14 @@
   @media (min-width: $medium) {
     float: left;
     padding: 25px;
-    width: 40%;
+    width: 50%;
   }
+}
+
+.volunteers-table__role {
+  min-width: 180px;
+}
+
+.volunteers-table__time-slots {
+  min-width: 100px;
 }

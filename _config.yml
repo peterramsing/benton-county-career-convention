@@ -82,11 +82,11 @@ cc-resources:
 
 cc-registration-links:
   - name: "Student Registration"
-    subtitle: "Register for the Career Convetion"
+    subtitle: "Register for the Career Convention"
     type: "student"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSeiWYPtM_XZaAx_nAksIDwnLuQoH6kJgGyZ2rtk5ICWWReLhw/viewform"
   - name: "Sponsor Registration"
-    subtitle: "Register to sponsor the Career Convetion"
+    subtitle: "Register to sponsor the Career Convention"
     type: "sponsor"
     url: "https://docs.google.com/forms/d/e/1FAIpQLSfoq8G6af4UqgIJcJiS0DNnaSm1jkeus0kh7Bbt5_thF7fAAg/viewform"
   - name: "Career Speaker Registration"

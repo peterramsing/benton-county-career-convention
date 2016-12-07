@@ -51,21 +51,28 @@
 }
 
 .homepage-hero {
-  display: flex;
-  justify-content: space-between;
   background-color: $color2;
   color: $color4;
+
+  @media (min-width: $medium) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .homepage-hero__image {
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  min-width: 300px;
+  padding: 20px;
+
+  @media (min-width: $medium) {
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+  }
+
 }
 
 .homepage-hero__content {
-  padding: 0 20px;
+  padding: 0 20px 20px;
 }
 
 .homepage-info-grid,

@@ -7,6 +7,10 @@ title: Sponsors
 
 <div class="sponsors-info">
   <h3 class="sponsors-info__header">Thanks for helping empower the next generation!</h3>
+  <p class="sponsors-info__copy sponsors-info__copy--special">
+    Thanks to an incredibly generous donation from our Premier Sponsor all Business Booths are free this year. We'd like you to join us in thanking the Corvallis Public Schools Foundation for going above and beyond to help enable more students access to their career success. 👏
+  </p>
+
   <p class="sponsors-info__copy">
     Booths are needed as well as our Premier and Grand Sponsors. The booths  help the students learn about the businesses in our community and what skills and knowledge are required as an employee. Students also work on social conversation skills.
   </p>
@@ -21,12 +25,27 @@ title: Sponsors
         {% if level.helps %}
           <h3>Helps {{level.helps}} Students!</h3>
         {% endif %}
+        {% if level.available == false %}
+          <h4>No longer available</h4>
+        {% endif %}
         <ul>
           {% for perk in level.perks %}
             <li>{{ perk }}</li>
           {% endfor %}
         </ul>
         <p>{% if level.note %}*{{ level.note }}{% endif %}</p>
+
+        <div class="sponsors__sponsor-showcase">
+          {% for sponsor in site.cc-sponsors %}
+            {% if sponsor.type == level.type %}
+            <figure class="sponsors__sponsor">
+              <img class="sponsors__sponsor-logo" src="{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+              <figcaption class="sponsors__sponsor-name">{{ sponsor.name }}</figcaption>
+            </figure>
+            {% endif %}
+          {% endfor %}
+        </div>
+
       </div>
     {% endfor %}
   </div>
@@ -63,5 +82,3 @@ title: Sponsors
 
   </ul>
 </div>
-
-{% include sponsors.html %}

@@ -29,64 +29,66 @@ title: Home
   </div>
 </div>
 
-<div class="homepage-info-grid">
+<div class="homepage__main" data-wrap="container">
+  <div class="homepage-info-grid">
 
-  <div class="homepage-info-grid__block">
-    <h2 class="homepage-info-grid__title">Students</h2>
-    <p class="homepage-info-grid__copy">
-      Over 800 high school juniors will be participating in this event to learn vital skills in the area of career development.
-    </p>
+    <div class="homepage-info-grid__block">
+      <h2 class="homepage-info-grid__title">Students</h2>
+      <p class="homepage-info-grid__copy">
+        Over 800 high school juniors will be participating in this event to learn vital skills in the area of career development.
+      </p>
+    </div>
+
+    <div class="homepage-info-grid__block">
+      <h2 class="homepage-info-grid__title">Booths</h2>
+      <p class="homepage-info-grid__copy">
+        Booths are needed as well as our Premier and Grand Sponsors. The booths  help the students learn about the businesses in our community and what skills and knowledge are required as an employee. Students also work on social conversation skills.
+      </p>
+    </div>
+
+    <div class="homepage-info-grid__block">
+      <h2 class="homepage-info-grid__title">Career Speakers</h2>
+      <p class="homepage-info-grid__copy">
+        Students will attend three career occupation panels. Each panel has three speakers specific to a career track. Each speaker has 5-8 minutes to present on their career. Speakers provide students with a snapshot of a typical day in the life of that profession.
+      </p>
+    </div>
+
+    <div class="homepage-info-grid__block">
+      <h2 class="homepage-info-grid__title">Mock Interviews</h2>
+      <p class="homepage-info-grid__copy">
+        Prior to the Career Convention, students will be building their resumes, as well as developing their interviewing skills. At the event, mock interviewers will be given students to interview. Each mock interviewer will interview then critique the students in <strong>10 minute</strong> intervals.
+      </p>
+    </div>
   </div>
 
-  <div class="homepage-info-grid__block">
-    <h2 class="homepage-info-grid__title">Booths</h2>
-    <p class="homepage-info-grid__copy">
-      Booths are needed as well as our Premier and Grand Sponsors. The booths  help the students learn about the businesses in our community and what skills and knowledge are required as an employee. Students also work on social conversation skills.
-    </p>
+
+  <div class="links-area">
+    <h2 class="links-area__title">Registration</h2>
+    <ul class="links-area__list links-area__list--plain">
+
+      {% for registration-link in site.cc-registration-links %}
+        <li class="links-area__link">
+          <a target="_blank" href="{{ registration-link.url }}">{{ registration-link.name }}</a>
+          <span>{{ registration-link.subtitle }}</span>
+        </li>
+      {% endfor %}
+
+    </ul>
+
+    <h2 class="links-area__title">Resources</h2>
+    <ul class="links-area__list links-area__list--plain">
+
+      {% for resource in site.cc-resources %}
+        {% if resource.homepage %}
+        <li class="links-area__link">
+          <a target="_blank" href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
+          <span>{{ resource.subtitle }}</span>
+        </li>
+        {% endif %}
+      {% endfor %}
+
+    </ul>
   </div>
-
-  <div class="homepage-info-grid__block">
-    <h2 class="homepage-info-grid__title">Career Speakers</h2>
-    <p class="homepage-info-grid__copy">
-      Students will attend three career occupation panels. Each panel has three speakers specific to a career track. Each speaker has 5-8 minutes to present on their career. Speakers provide students with a snapshot of a typical day in the life of that profession.
-    </p>
-  </div>
-
-  <div class="homepage-info-grid__block">
-    <h2 class="homepage-info-grid__title">Mock Interviews</h2>
-    <p class="homepage-info-grid__copy">
-      Prior to the Career Convention, students will be building their resumes, as well as developing their interviewing skills. At the event, mock interviewers will be given students to interview. Each mock interviewer will interview then critique the students in <strong>10 minute</strong> intervals.
-    </p>
-  </div>
-</div>
-
-
-<div class="links-area">
-  <h2 class="links-area__title">Registration</h2>
-  <ul class="links-area__list links-area__list--plain">
-
-    {% for registration-link in site.cc-registration-links %}
-      <li class="links-area__link">
-        <a target="_blank" href="{{ registration-link.url }}">{{ registration-link.name }}</a>
-        <span>{{ registration-link.subtitle }}</span>
-      </li>
-    {% endfor %}
-
-  </ul>
-
-  <h2 class="links-area__title">Resources</h2>
-  <ul class="links-area__list links-area__list--plain">
-
-    {% for resource in site.cc-resources %}
-      {% if resource.homepage %}
-      <li class="links-area__link">
-        <a target="_blank" href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
-        <span>{{ resource.subtitle }}</span>
-      </li>
-      {% endif %}
-    {% endfor %}
-
-  </ul>
 </div>
 
 {% include sponsors.html %}

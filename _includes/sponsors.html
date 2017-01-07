@@ -1,3 +1,43 @@
-<div class="sponsors">
+<div class="sponsors" data-wrap="container">
 
+  <h1 class="sponsors__title">Thank you to our sponsors!</h1>
+
+  <h2 class="sponsors__level-heading">Premier</h2>
+
+  <div class="sponsors__sponsor-showcase">
+    {% for sponsor in site.cc-sponsors %}
+      {% if sponsor.type == "premier" %}
+      <figure class="sponsors__sponsor">
+        <img class="sponsors__sponsor-logo" src="{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+        <figcaption class="sponsors__sponsor-name">{{ sponsor.name }}</figcaption>
+      </figure>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+
+  <h2 class="sponsors__level-heading">Grand</h2>
+
+  <div class="sponsors__sponsor-showcase">
+    {% for sponsor in site.cc-sponsors %}
+      {% if sponsor.type == "grand" %}
+      <figure class="sponsors__sponsor">
+        <img class="sponsors__sponsor-logo" src="{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+        <figcaption class="sponsors__sponsor-name">{{ sponsor.name }}</figcaption>
+      </figure>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <h2 class="sponsors__level-heading">Honor</h2>
+
+  <div class="sponsors__sponsor-showcase">
+    {% for sponsor in site.cc-sponsors %}
+      {% if sponsor.type == "honor" %}
+      <figure class="sponsors__sponsor">
+        <img class="sponsors__sponsor-logo" src="{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+        <figcaption class="sponsors__sponsor-name">{{ sponsor.name }}</figcaption>
+      </figure>
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>

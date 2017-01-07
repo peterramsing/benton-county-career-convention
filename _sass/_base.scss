@@ -126,3 +126,17 @@ a:focus {
 .volunteers-table__time-slots {
   text-align: center;
 }
+
+.sponsors__level-heading {
+  border-top: 1px $color1 solid;
+  width: 100%;
+  text-align: center;
+}
+
+.sponsors-info__copy--special {
+  font-style: italic;
+}
+
+.sponsorship-levels__availability-status {
+  color: $color3;
+}

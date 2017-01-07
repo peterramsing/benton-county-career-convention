@@ -17,13 +17,6 @@ cc-start-time: "9:30 AM"
 cc-end-time: "2:15 PM"
 cc-location: "Oregon State University CH2M Hill Alumni Center and LaSells Stewart Center"
 
-cc-sponsors-premier:
-  - "Corvallis Public Schools Foundation"
-
-cc-sponsors-grand:
-  - "Ball Studio"
-  - "Corvallis Rotary"
-
 cc-student-registration-date: 2016-12-01 09:00:00
 
 cc-contact-name: "Donna Keim"
@@ -104,12 +97,16 @@ cc-registration-links:
 
 cc-sponsors-levels:
   - name: "Business Booth"
+    type: "booth"
+    available: false
     cost: "Free this year!"
     note: "Business Booth Representatives: Please check-in at the registration table in the LaSells Stewart Center and have your booths set-up no later than 9:30 a.m. Volunteers will be on hand to help booth representatives unload vehicles and set-up booths. Business booths will be located in the LaSells Stewart Center, as well as the CH2M Hill Alumni Center. If needed, power cords will be available."
     perks:
       - "Interaction with hundreds of students"
       - "1 Booth"
   - name: "Honor"
+    type: "honor"
+    available: false
     cost: "$250"
     helps: 25
     perks:
@@ -119,6 +116,8 @@ cc-sponsors-levels:
       - "Logo displayed during convention"
       - "Tax Deduction"
   - name: "Grand"
+    type: "grand"
+    available: false
     cost: "$500"
     helps: 50
     perks:
@@ -129,6 +128,7 @@ cc-sponsors-levels:
       - "Bag Inserts Option"
       - "Tax Deduction"
   - name: "Premier"
+    type: "premier"
     cost: "$1,500"
     helps: 150
     perks:
@@ -140,9 +140,19 @@ cc-sponsors-levels:
       - "Corvallis Flyer Ad"
       - "Tax Deduction"
 
-
-
-
+cc-sponsors:
+  - name: "Corvallis Public Schools Foundation"
+    logo: "/img/sponsors/corvallis-public-schools-foundation.png"
+    type: "premier"
+  - name: "Corvallis Rotary"
+    logo: "/img/sponsors/corvallis-rotary-club.png"
+    type: "grand"
+  - name: "Pipeline Program"
+    logo: "/img/sponsors/pipeline-program.png"
+    type: "honor"
+  - name: "Heresco Chiropractic"
+    logo: "/img/sponsors/heresco.png"
+    type: "honor"
 
 cc-web-creator-name: "Peter Ramsing"
 cc-web-creator-url: http://peter.coffee

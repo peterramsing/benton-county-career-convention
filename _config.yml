@@ -17,13 +17,6 @@ cc-start-time: "9:30 AM"
 cc-end-time: "2:15 PM"
 cc-location: "Oregon State University CH2M Hill Alumni Center and LaSells Stewart Center"
 
-cc-sponsors-premier:
-  - "Corvallis Public Schools Foundation"
-
-cc-sponsors-grand:
-  - "Ball Studio"
-  - "Corvallis Rotary"
-
 cc-student-registration-date: 2016-12-01 09:00:00
 
 cc-contact-name: "Donna Keim"
@@ -140,9 +133,19 @@ cc-sponsors-levels:
       - "Corvallis Flyer Ad"
       - "Tax Deduction"
 
-
-
-
+cc-sponsors:
+  - name: "Corvallis Public Schools Foundation"
+    logo: ""
+    type: "premier"
+  - name: "Corvallis Rotary"
+    logo: ""
+    type: "grand"
+  - name: "Pipeline Program"
+    logo: ""
+    type: "honor"
+  - name: "Heresco Dentistry"
+    logo: ""
+    type: "honor"
 
 cc-web-creator-name: "Peter Ramsing"
 cc-web-creator-url: http://peter.coffee

@@ -135,16 +135,16 @@ cc-sponsors-levels:
 
 cc-sponsors:
   - name: "Corvallis Public Schools Foundation"
-    logo: ""
+    logo: "/img/sponsors/corvallis-public-schools-foundation.png"
     type: "premier"
   - name: "Corvallis Rotary"
-    logo: ""
+    logo: "/img/sponsors/corvallis-rotary-club.png"
     type: "grand"
   - name: "Pipeline Program"
-    logo: ""
+    logo: "/img/sponsors/pipeline-program.png"
     type: "honor"
-  - name: "Heresco Dentistry"
-    logo: ""
+  - name: "Heresco Chiropractic"
+    logo: "/img/sponsors/heresco.png"
     type: "honor"
 
 cc-web-creator-name: "Peter Ramsing"

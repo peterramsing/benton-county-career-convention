@@ -110,3 +110,36 @@
 .volunteers-table__time-slots {
   min-width: 100px;
 }
+
+.sponsors__title {
+  text-align: center;
+}
+
+.sponsors__sponsor-showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  @media (min-width: $medium) {
+    flex-direction: row;
+  }
+}
+
+.sponsors__sponsor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.sponsors__sponsor-logo {
+  display: flex;
+  padding: $spacing-unit / 2;
+  max-height: 100px;
+}
+
+.sponsors__sponsor-name {
+  display: flex;
+  text-align: center;
+}

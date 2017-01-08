@@ -28,11 +28,13 @@ title: Sponsors
         {% if level.available == false %}
           <h4 class="sponsorship-levels__availability-status">No longer available</h4>
         {% endif %}
-        <ul>
-          {% for perk in level.perks %}
-            <li>{{ perk }}</li>
-          {% endfor %}
-        </ul>
+        {% if level.available == true %}
+          <ul>
+            {% for perk in level.perks %}
+              <li>{{ perk }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
         <p>{% if level.note %}*{{ level.note }}{% endif %}</p>
 
         <div class="sponsors__sponsor-showcase">

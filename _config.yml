@@ -98,7 +98,7 @@ cc-registration-links:
 cc-sponsors-levels:
   - name: "Business Booth"
     type: "booth"
-    available: false
+    available: true
     cost: "Free this year!"
     note: "Business Booth Representatives: Please check-in at the registration table in the LaSells Stewart Center and have your booths set-up no later than 9:30 a.m. Volunteers will be on hand to help booth representatives unload vehicles and set-up booths. Business booths will be located in the LaSells Stewart Center, as well as the CH2M Hill Alumni Center. If needed, power cords will be available."
     perks:

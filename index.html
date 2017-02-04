@@ -6,12 +6,16 @@ title: Home
 ---
 
 <div class="student-registration-callout">
+  {% if site.cc-student-registration-open %}
   <a
     class="student-registration-callout__link"
     target="_blank"
     href="https://docs.google.com/forms/d/e/1FAIpQLSeiWYPtM_XZaAx_nAksIDwnLuQoH6kJgGyZ2rtk5ICWWReLhw/viewform">
       Register Now!
     </a>
+    {% else %}
+    <p>Student Registration is closed. Contact your advisor for details.</p>
+    {% endif %}
 </div>
 
 <div class="homepage-hero">
@@ -67,10 +71,19 @@ title: Home
     <ul class="links-area__list links-area__list--plain">
 
       {% for registration-link in site.cc-registration-links %}
+        {% if site.cc-student-registration-open %}
         <li class="links-area__link">
           <a target="_blank" href="{{ registration-link.url }}">{{ registration-link.name }}</a>
           <span>{{ registration-link.subtitle }}</span>
         </li>
+        {% else %}
+          {% if registration-link.type != "student" %}
+          <li class="links-area__link">
+            <a target="_blank" href="{{ registration-link.url }}">{{ registration-link.name }}</a>
+            <span>{{ registration-link.subtitle }}</span>
+          </li>
+          {% endif %}
+        {% endif %}
       {% endfor %}
 
     </ul>

@@ -16,19 +16,19 @@ title: Students
 </div>
 
 <div class="links-area">
-  <h2 class="links-area__title">Registration</h2>
-  <ul class="links-area__list links-area__list--plain">
-
-    {% for registration-link in site.cc-registration-links %}
-      {% if registration-link.type == "student" %}
-        <li class="links-area__link">
-          <a target="_blank" href="{{ registration-link.url }}">{{ registration-link.name }}</a>
-          <span>{{ registration-link.subtitle }}</span>
-        </li>
-      {% endif %}
-    {% endfor %}
-
-  </ul>
+  {% if site.cc-student-registration-open %}
+    <h2 class="links-area__title">Registration</h2>
+    <ul class="links-area__list links-area__list--plain">
+      {% for registration-link in site.cc-registration-links %}
+        {% if registration-link.type == "student" %}
+          <li class="links-area__link">
+            <a target="_blank" href="{{ registration-link.url }}">{{ registration-link.name }}</a>
+            <span>{{ registration-link.subtitle }}</span>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
 
   <h2 class="links-area__title">Resources</h2>
   <ul class="links-area__list links-area__list--plain">

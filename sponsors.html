@@ -41,7 +41,7 @@ title: Sponsors
           {% for sponsor in site.cc-sponsors %}
             {% if sponsor.type == level.type %}
             <figure class="sponsors__sponsor">
-              <img class="sponsors__sponsor-logo" src="{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+              <img class="sponsors__sponsor-logo" src="{{ site.baseurl }}{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
               <figcaption class="sponsors__sponsor-name">{{ sponsor.name }}</figcaption>
             </figure>
             {% endif %}

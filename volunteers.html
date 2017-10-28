@@ -51,7 +51,7 @@ title: Volunteers
     {% for resource in site.cc-resources %}
       {% if resource.type == "volunteer" %}
       <li class="links-area__link">
-        <a target="_blank" href="{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
+        <a target="_blank" href="{{ site.baseurl }}{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
         <span>{{ resource.subtitle }}</span>
       </li>
       {% endif %}
@@ -61,7 +61,7 @@ title: Volunteers
 
   <div class="volunteers-info__superintendent-note">
     <h3 class="volunteers-info__title">Message from the Superintendent</h3>
-    <img class="volunteers-info__superintendent-image" src="{{ site.baseurl }}img/superintendent.png" alt="">
+    <img class="volunteers-info__superintendent-image" src="{{ site.baseurl }}/img/superintendent.png" alt="">
     <p class="volunteers-info__copy">I'd like to invite our community to continue supporting our annual Benton County Career Convention!</p>
   </div>
 </div>

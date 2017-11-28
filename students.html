@@ -37,7 +37,7 @@ title: Students
       {% for resource in site.cc-resources %}
         {% if resource.type == "student" %}
         <li class="links-area__link">
-          <a target="_blank" href="{{ site.baseurl }}{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
+          <a target="_blank" href="{{ site.baseurl }}/{{ resource.file-name | prepend: site.cc-resources-base-url }}">{{ resource.name }}</a>
           <span>{{ resource.subtitle }}</span>
         </li>
         {% endif %}

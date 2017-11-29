@@ -9,16 +9,16 @@ markdown: kramdown
 
 
 # Special Stuff for the Career Convention
-cc-year: 2017
+cc-year: 2018
 cc-month: "Feburary"
-cc-date: "21"
+cc-date: "20"
 cc-day: "Tuesday"
 cc-start-time: "9:30 AM"
 cc-end-time: "2:15 PM"
 cc-location: "Oregon State University CH2M Hill Alumni Center and LaSells Stewart Center"
 
 cc-student-registration-open: false
-cc-student-registration-date: 2016-12-01 09:00:00
+cc-student-registration-date: 2017-12-01 09:00:00
 
 cc-contact-name: "Donna Keim"
 cc-contact-role: "Chair"
@@ -64,9 +64,9 @@ cc-resources:
   #   file-name: ""
   #   homepage: true
   #   subtitle: Map of CH2M Hill and Alumni Center
-  - name: "Career Speaker Evaluation"
-    file-name: ""
-    type: "student"
+  # - name: "Career Speaker Evaluation"
+  #   file-name: ""
+  #   type: "student"
   - name: "Career Speaker Reflection"
     file-name: "career-speaker-reflections.pdf"
     type: "student"
@@ -142,20 +142,29 @@ cc-sponsors-levels:
       - "Tax Deduction"
 
 cc-sponsors:
-  - name: "Corvallis Public Schools Foundation"
-    logo: "/img/sponsors/corvallis-public-schools-foundation.png"
-    type: "premier"
+  - name: "Corvallis Public School District 509J"
+    logo: "FIXME"
+    type: "premeir"
   - name: "Corvallis Rotary"
     logo: "/img/sponsors/corvallis-rotary-club.png"
+    type: "grand"
+  - name: "NuScale Power"
+    logo: "FIXME"
+    type: "grand"
+  - name: "HP Inc."
+    logo: "FIXME"
     type: "grand"
   - name: "Pipeline Program"
     logo: "/img/sponsors/pipeline-program.png"
     type: "honor"
-  - name: "Heresco Chiropractic"
-    logo: "/img/sponsors/heresco.png"
+  - name: "IHA"
+    logo: "FIXME"
     type: "honor"
-  - name: "Hendrix Heating"
-    logo: "/img/sponsors/hendrix.png"
+  - name: "LB iLearn Online"
+    logo: "FIXME"
+    type: "honor"
+  - name: "OSU College of Earth, Ocean, and Atmospheric Science" #FIXME: Spelling
+    logo: "FIXME"
     type: "honor"
 
 cc-web-creator-name: "Peter Ramsing"

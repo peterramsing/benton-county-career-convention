@@ -130,6 +130,7 @@ cc-sponsors-levels:
       - "Tax Deduction"
   - name: "Premier"
     type: "premier"
+    available: false
     cost: "$1,500"
     helps: 150
     perks:

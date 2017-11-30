@@ -74,6 +74,7 @@ cc-resources:
   #   file-type: ""
   #   type: "sponsor"
 
+# The order of these matters to array iterations
 cc-registration-links:
   - name: "Student Registration"
     subtitle: "Register for the Career Convention"

@@ -25,6 +25,9 @@ title: Sponsors
         {% if level.helps %}
           <h3>Helps {{level.helps}} Students!</h3>
         {% endif %}
+        {% if level.type == "booth" %}
+          <a target="_blank" href="{{ site.cc-registration-links[1].url }}">{{ site.cc-registration-links[1].name }}</a>
+        {% endif %}
         {% if level.available == false %}
           <h4 class="sponsorship-levels__availability-status">No longer available</h4>
         {% endif %}

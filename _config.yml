@@ -43,10 +43,11 @@ cc-resources:
   #   type: "volunteer"
   # - name: "Convention Room Schedule"
   #   file-name: ""
-  # - name: "Message from the Superintendent"
-  #   file-name: "superintendent-note.pdf"
-  #   homepage: true
-  #   subtitle: Letter from the Superintendent
+  - name: "Message from the Superintendent"
+    file-name: "superintendent-note.pdf"
+    homepage: "true"
+    type: "volunteer"
+    subtitle: "Letter from the Superintendent"
   # - name: "Skill Based Resume Example"
   #   file-name: "skill-resume.pdf"
   #   type: "student"

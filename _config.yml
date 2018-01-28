@@ -162,10 +162,10 @@ cc-sponsors:
   - name: "AHA"
     logo: "/img/sponsors/aha_logo.png"
     type: "honor"
-  - name: "LB iLearn Online"
-    logo: "/img/sponsors/lbcc_logo.png"
+  - name: "LBCC Extended Learning"
+    logo: "/img/sponsors/lbcc_extended_learning.jpg"
     type: "honor"
-  - name: "OSU College of Earth, Ocean, and Atmospheric Science" #FIXME: Spelling
+  - name: "OSU College of Earth, Ocean, and Atmospheric Science"
     logo: "/img/sponsors/ceoas_logo.jpg"
     type: "honor"
 

@@ -1,0 +1,9 @@
+{% if site.cc-student-registration-open %}
+<a class="student-registration-callout__link"
+   target="_blank"
+   href="{{site.cc-registration-links[0].url}}">
+  Register Now!
+</a>
+{% else %}
+<p>Student Registration is closed. Contact your advisor for details.</p>
+{% endif %}

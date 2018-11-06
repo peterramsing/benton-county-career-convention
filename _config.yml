@@ -9,16 +9,16 @@ markdown: kramdown
 
 
 # Special Stuff for the Career Convention
-cc-year: 2018
+cc-year: 2019
 cc-month: "Feburary"
-cc-date: "20"
+cc-date: "19"
 cc-day: "Tuesday"
 cc-start-time: "9:30 AM"
 cc-end-time: "2:15 PM"
 cc-location: "Oregon State University CH2M Hill Alumni Center and LaSells Stewart Center"
 
 cc-student-registration-open: false
-cc-student-registration-date: 2017-12-01 09:00:00
+cc-student-registration-date: 2018-12-01 09:00:00
 
 cc-contact-name: "Donna Keim"
 cc-contact-role: "Chair"
@@ -81,6 +81,7 @@ cc-resources:
 
 # The order of these matters to array iterations
 cc-registration-links:
+  # The first item in this array MUST be the student registration link
   - name: "Student Registration"
     subtitle: "Register for the Career Convention"
     type: "student"
@@ -113,7 +114,7 @@ cc-sponsors-levels:
       - "1 Booth"
   - name: "Honor"
     type: "honor"
-    available: false
+    available: true
     cost: "$250"
     helps: 25
     perks:
@@ -124,7 +125,7 @@ cc-sponsors-levels:
       - "Tax Deduction"
   - name: "Grand"
     type: "grand"
-    available: false
+    available: true
     cost: "$500"
     helps: 50
     perks:
@@ -136,7 +137,7 @@ cc-sponsors-levels:
       - "Tax Deduction"
   - name: "Premier"
     type: "premier"
-    available: false
+    available: true
     cost: "$1,500"
     helps: 150
     perks:
@@ -149,33 +150,33 @@ cc-sponsors-levels:
       - "Tax Deduction"
 
 cc-sponsors:
-  - name: "Corvallis School District 509J"
-    logo: "/img/sponsors/csd509j_logo.jpg"
-    type: "premier"
-  - name: "Corvallis Rotary"
-    logo: "/img/sponsors/corvallis-rotary-club.png"
-    type: "grand"
-  - name: "NuScale Power"
-    logo: "/img/sponsors/nuscale_logo.jpg"
-    type: "grand"
-  - name: "HP Inc."
-    logo: "/img/sponsors/hp_logo.png"
-    type: "grand"
-  - name: "Pipeline Program"
-    logo: "/img/sponsors/pipeline-program.png"
-    type: "honor"
-  - name: "AHA"
-    logo: "/img/sponsors/aha_logo.png"
-    type: "honor"
-  - name: "LBCC Extended Learning"
-    logo: "/img/sponsors/lbcc_extended_learning.jpg"
-    type: "honor"
-  - name: "OSU College of Earth, Ocean, and Atmospheric Science"
-    logo: "/img/sponsors/ceoas_logo.jpg"
-    type: "honor"
+  # - name: "Corvallis School District 509J"
+  #   logo: "/img/sponsors/csd509j_logo.jpg"
+  #   type: "premier"
+  # - name: "Corvallis Rotary"
+  #   logo: "/img/sponsors/corvallis-rotary-club.png"
+  #   type: "grand"
+  # - name: "NuScale Power"
+  #   logo: "/img/sponsors/nuscale_logo.jpg"
+  #   type: "grand"
+  # - name: "HP Inc."
+  #   logo: "/img/sponsors/hp_logo.png"
+  #   type: "grand"
+  # - name: "Pipeline Program"
+  #   logo: "/img/sponsors/pipeline-program.png"
+  #   type: "honor"
+  # - name: "AHA"
+  #   logo: "/img/sponsors/aha_logo.png"
+  #   type: "honor"
+  # - name: "LBCC Extended Learning"
+  #   logo: "/img/sponsors/lbcc_extended_learning.jpg"
+  #   type: "honor"
+  # - name: "OSU College of Earth, Ocean, and Atmospheric Science"
+  #   logo: "/img/sponsors/ceoas_logo.jpg"
+  #   type: "honor"
 
 cc-web-creator-name: "Peter Ramsing"
-cc-web-creator-url: http://peter.coffee
+cc-web-creator-url: https://peter.coffee
 
 cc-partner-groups:
   - name: "Corvallis School District 509J"

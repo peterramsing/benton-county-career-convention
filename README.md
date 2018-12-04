@@ -13,9 +13,4 @@
 
 
 ## Deploy
-For ease's sake I used Firebase for the hosting. Free + SSL and super quick for this application.
-
-1. Have access to the Firebase project (email Peter)
-1. Configure with that Firebase project (email Peter)
-1. `$ firebase deploy`
-  * **Important**: Only deploy a production build (see above)
+This is hosted on GitHub so pushing to `master` will deploy the site.

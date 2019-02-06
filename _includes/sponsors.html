@@ -1,4 +1,4 @@
-<!-- <div class="sponsors" data-wrap="container">
+<div class="sponsors" data-wrap="container">
 
   <h1 class="sponsors__title">Thank you to our sponsors!</h1>
 
@@ -34,7 +34,9 @@
     {% for sponsor in site.cc-sponsors %}
       {% if sponsor.type == "honor" %}
       <figure class="sponsors__sponsor">
-        <img class="sponsors__sponsor-logo" src="{{ site.baseurl }}{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+        {% if sponsor.logo %}
+          <img class="sponsors__sponsor-logo" src="{{ site.baseurl }}{{ sponsor.logo }}" alt="{{ sponsor.name }} Logo">
+        {% endif %}
         <figcaption class="sponsors__sponsor-name">{{ sponsor.name }}</figcaption>
       </figure>
       {% endif %}
@@ -45,4 +47,4 @@
 <div class="sponsors__thanks-showcase">
   <h3>Special Thanks to:</h3>
   {% include partners.html %}
-</div> -->
+</div>

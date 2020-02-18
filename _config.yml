@@ -181,7 +181,7 @@ cc-sponsors:
   #   type: "honor"
   - name: "OSU College of Engineering"
     logo: "/img/sponsors/coe_logo.png"
-    type: "honor"
+    type: "grand"
   - name: "OSU College of Pharmacy"
     logo: "/img/sponsors/osu-pharmacy_logo.jpg"
     type: "honor"

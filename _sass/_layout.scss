@@ -85,6 +85,8 @@
     float: left;
     padding-right: 20px;
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -101,8 +103,8 @@
 
 .homepage-info-grid__block {
   @media (min-width: $medium) {
-    float: left;
-    padding: 25px;
+    // float: left;
+    // padding: 25px;
     width: 50%;
   }
 }

@@ -9,16 +9,16 @@ markdown: kramdown
 
 
 # Special Stuff for the Career Convention
-cc-year: 2020
-cc-month: "February"
-cc-date: "18"
-cc-day: "Tuesday"
-cc-start-time: "9:30 AM"
-cc-end-time: "2:15 PM"
-cc-location: "Oregon State University CH2M Hill Alumni Center and LaSells Stewart Center"
+# cc-year: 2020
+# cc-month: "February"
+# cc-date: "18"
+# cc-day: "Tuesday"
+# cc-start-time: "9:30 AM"
+# cc-end-time: "2:15 PM"
+# cc-location: "Oregon State University CH2M Hill Alumni Center and LaSells Stewart Center"
 
-cc-student-registration-open: false
-cc-student-registration-date: 2019-12-01 09:00:00
+cc-student-registration-open: true
+cc-student-registration-date: 2012-12-29 09:00:00
 
 cc-contact-name: "Donna Keim"
 cc-contact-role: "Chair"
@@ -33,19 +33,19 @@ cc-resources:
   - name: "Student Event Information"
     file-name: "bchscc-student-info.docx"
     type: "student"
-  - name: "Flyer"
-    homepage: "true"
-    file-name: "flyer.pdf"
+  # - name: "Flyer"
+  #   homepage: "true"
+  #   file-name: "flyer.pdf"
   - name: "Interviewing Tips"
     file-name: "tips-for-students.pdf"
     type: "student"
-  - name: "Mock Interview Event Handout"
-    file-name: "mock-interview-handout.pdf"
-    type: "volunteer"
-  - name: "Convention Room Schedule"
-    type: "volunteer"
-    homepage: "true"
-    file-name: "master-room-schedule.pdf"
+  # - name: "Mock Interview Event Handout"
+  #   file-name: "mock-interview-handout.pdf"
+  #   type: "volunteer"
+  # - name: "Convention Room Schedule"
+  #   type: "volunteer"
+  #   homepage: "true"
+  #   file-name: "master-room-schedule.pdf"
   - name: "Message from the Superintendent"
     file-name: "superintendent-note.pdf"
     homepage: "true"
@@ -77,9 +77,9 @@ cc-resources:
   # - name: "Event Information"
   #   file-type: ""
   #   type: "sponsor"
-  - name: "Business or Booth Reflection"
-    file-name: "business-or-booth-reflection.doc"
-    type: "student"
+  # - name: "Business or Booth Reflection"
+  #   file-name: "business-or-booth-reflection.doc"
+  #   type: "student"
 
 # The order of these matters to array iterations
 cc-registration-links:
@@ -87,7 +87,7 @@ cc-registration-links:
   - name: "Student Registration"
     subtitle: "Register for the Career Convention"
     type: "student"
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSeiWYPtM_XZaAx_nAksIDwnLuQoH6kJgGyZ2rtk5ICWWReLhw/viewform"
+    url: "https://app.bentoncountyhscc.com"
   - name: "Sponsor/Booth Registration"
     subtitle: "Register to sponsor a booth and engage with students"
     type: "sponsor"

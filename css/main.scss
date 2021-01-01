@@ -5,9 +5,9 @@
 
 // Coolors Exported Palette - coolors.co/271907-1b263b-f3a22d-cccdc9-56666b
 $color1: rgba(39, 25, 7, 1);
-$color2: rgba(27, 38, 59, 1);
+$color2: #673ab7;
 $color3: rgba(243, 162, 45, 1);
-$color4: rgba(204, 205, 201, 1);
+$color4: rgb(252, 252, 252);
 $color5: rgba(86, 102, 107, 1);
 
 // Transitions
@@ -15,14 +15,14 @@ $ui-transition-speed: 0.25s;
 $phone-transition-speed: 0.5s;
 
 // Fonts
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Work+Sans:300';
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i|Work+Sans:300';
 
-$heading-font-family: 'Work Sans', sans-serif;
+$heading-font-family: 'Roboto', sans-serif;
 $heading-font-weight: 300;
 
 $base-font-family: 'Open Sans', sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 400;
+$base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 

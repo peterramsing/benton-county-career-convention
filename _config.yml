@@ -58,9 +58,6 @@ cc-resources:
   - name: "CIS Resume Example"
     file-name: "cis-resume.pdf"
     type: "student"
-  - name: "Active Professional's Resume"
-    file-name: "peter-ramsing-resume.pdf"
-    type: "student"
   # - name: "Directions"
   #   file-name: ""
   #   homepage: true

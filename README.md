@@ -6,7 +6,7 @@
   * `$ gem install jekyll bundler`
 
 ### Development
-* `$ jekyll s`
+* `$ bundle exec jekyll s`
 
 ### Production
 * `$ JEKYLL_ENV=production jekyll build`

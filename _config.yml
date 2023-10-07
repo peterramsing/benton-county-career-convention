@@ -9,21 +9,21 @@ markdown: kramdown
 
 
 # Special Stuff for the Career Convention
-cc-year: 2022
-# cc-month: "February"
-# cc-date: "18"
-# cc-day: "Tuesday"
-# cc-start-time: "9:30 AM"
-# cc-end-time: "2:15 PM"
-# cc-location: "Oregon State University CH2M Hill Alumni Center and LaSells Stewart Center"
+cc-year: 2023
+cc-month: "February"
+cc-date: "26"
+cc-day: "Monday"
+cc-start-time: "9:30 AM"
+cc-end-time: "2:15 PM"
+cc-location: "Oregon State Universitym, CH2M Hill Alumni Center and LaSells Stewart&nbsp;Center"
 
-cc-student-registration-open: true
+cc-student-registration-open: false
 cc-student-registration-date: 2012-12-29 09:00:00
 
-cc-contact-name: "Christa Schmeder & Laura Beck"
+cc-contact-name: "Christa Schmeder & Leah Tomlin"
 # cc-contact-role: "Chair"
 # cc-contact-phone: "541-740-1309"
-cc-contact-email: "christa.schmeder@corvallis.k12.or.us, laura.beck-ard@corvallis.k12.or.us"
+cc-contact-email: "christa.schmeder@corvallis.k12.or.us, leah.tomlin@corvallis.k12.or.us"
 
 cc-resources-base-url: "downloads/"
 cc-resources:

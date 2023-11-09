@@ -15,12 +15,12 @@ cc-date: "26"
 cc-day: "Monday"
 cc-start-time: "9:30 AM"
 cc-end-time: "2:15 PM"
-cc-location: "Oregon State Universitym, CH2M Hill Alumni Center and LaSells Stewart&nbsp;Center"
+cc-location: "Oregon State University, CH2M Hill Alumni Center and LaSells Stewart&nbsp;Center"
 
 cc-student-registration-open: true
 cc-student-registration-date: 2012-12-29 09:00:00
 
-cc-contact-name: "Christa Schmeder & Leah Tomlin"
+cc-contact-name: "Christa Schmeder, Nikki McFarland & Leah Tomlin"
 # cc-contact-role: "Chair"
 # cc-contact-phone: "541-740-1309"
 cc-contact-email: "christa.schmeder@corvallis.k12.or.us, leah.tomlin@corvallis.k12.or.us"
@@ -98,10 +98,14 @@ cc-registration-links:
   #   subtitle: "Register to be a Mock Interviewer"
   #   type: "volunteer"
   #   url: "https://docs.google.com/forms/d/e/1FAIpQLSdW4I2Wtx8bZ1MQ71JrbzTSmIc_ZzVK9ujLmDuvcLAePkdawQ/viewform"
-  # - name: "Event Volunteer Registration"
-  #   subtitle: "Registration for General Assistance"
-  #   type: "volunteer"
-  #   url: "https://docs.google.com/forms/d/e/1FAIpQLSfe9GcGeH3AffGqW_aqE7x5TAx2IHxL52KuFZYnTJiRjSkS9g/viewform"
+  - name: "Event Volunteer Registration"
+    subtitle: "Registration for General Assistance"
+    type: "volunteer"
+    url: "https://forms.gle/wY5KXgkL9a4HNu4u9"
+  - name: "Volunteer Background Check"
+    subtitle: "Required for volunteers"
+    type: "volunteer"
+    url: "https://www.csd509j.net/students-parents/volunteer/volunteer-application/"
 
 cc-sponsors-levels:
   - name: "Business Booth"

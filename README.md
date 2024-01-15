@@ -17,7 +17,7 @@ https://github.com/rbenv/rbenv
 * `$ bundle exec jekyll s`
 
 ### Production
-* `$ JEKYLL_ENV=production jekyll build`
+* `$ JEKYLL_ENV=production bundle exec jekyll build`
 
 
 ## Deploy
